@@ -70,3 +70,12 @@ if __name__ == "__main__":
 
     for x in times:
         print(time_to_day(x[0])+' '+time_to_str(x[0])+'-'+time_to_str(x[1]))
+
+        
+    # OUTPUT of the above code:
+    #
+    # Ints: [(2100, 2180), (4980, 5060)]
+    #
+    # Back to human readable:
+    # Tue 11:00am-12:20pm
+    # Thu 11:00am-12:20pm
